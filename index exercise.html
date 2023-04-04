@@ -1,0 +1,61 @@
+<html>
+    <head>
+        <title>
+    
+            My first website
+        </title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/buzz/1.2.1/buzz.min.js">
+        </script>
+    </head>
+<!-- 
+<body style="background-color:rgb(224, 215, 255)">
+    <h1 style="color: rgb(108, 62, 152);" style="font-family: sans-serif;">
+        This is the heading!!! :DD
+    </h1>
+    <h2>
+        This is a subheading wowowowo
+    </h2>
+<p>This is a paragraph my life is going in a downward spiral <br> I don't know who i am or what my purpose in life is I need someone to guide me fr or else I'm going to be sad and really why can't I just do nothing and become a good kitchen housewife who doesn't need to work for money </canvas>
+</p>
+-->
+<img src="img/Japan leaves.jpg" width="250" />
+<img id="blue" src="img/blue.png" onmouseover="this.src='img/pink.png';" onmouseup="this.src='img/yellow.png'; width="250" />
+<img id="pink" src="img/pink.png" width="250" />
+<img id="yellow" src="img/yellow.png" width="250"/>
+
+<script>
+    var sound1 = new buzz.sound("sound/glitch1.mp3");
+    var sound2 = new buzz.sound("sound/glitch2.mp3");
+    var sound3 = new buzz.sound("sound/glitch3.mp3");
+
+    window.onload = function () {
+        document.getElementById('blue').addEventListener('click', function () {sound1.play();});
+        document.getElementById('pink').addEventListener('click', function () {sound2.play();});
+        document.getElementById('yellow').addEventListener('click', function () {sound3.play();});
+    };
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
